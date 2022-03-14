@@ -14,8 +14,8 @@ class Animal{
         public String output="";
         if(str.equalsIgnoreCase("cat")) output=getCatGreeting();
         else if(str.equalsIgnoreCase("BIRD")) output = getBirdGreeting();
-
-        output =getdefault();
+        else output =getdefault();
+        
 
         System.out.println(output);
     }
